@@ -14,9 +14,12 @@
         <nav>
             <img src="assets/logo.png" alt="">
             <div class="nav-links">
-                <a style="color: #252432; font-weight: 500;" href="">Home</a>
-                <a style="color: #8987A1;" href="">Shop</a>
-                <a style="color: #8987A1;" href="">About us</a>
+                <div class="
+                responsive-nav">
+                    <a style="color: #252432; font-weight: 500;" href="">Home</a>
+                    <a style="color: #8987A1;" href="">Shop</a>
+                    <a style="color: #8987A1;" href="">About us</a>
+                </div>
                 <a style="color: #000000;" href=""> <i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
             </div>
         </nav>
@@ -121,7 +124,7 @@
         </section>
         <!-- lover section -->
         <section class="lover">
-            <div>
+            <div class="lover-image">
                 <img class="lover-img" src="assets/flower-store.png" alt="">
                 <img id="badge" src="assets/trusted-badge.png" alt="">
             </div>
@@ -138,37 +141,47 @@
             </div>
         </section>
         <!-- deal section -->
-        <!-- <section class="deals">
+        <section class="deals">
             <div class="deal-content">
-                <h3>Latest Deals</h3>
-                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
-                    exotic blooms, we offer a wide variety of fresh.</p>
+                <h3 style="font-size: 50px; font-weight: bold;"> <span class="color2">Latest</span> Deals</h3>
+                <p class="color1" style="
+                margin-top: -50px;">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                    <br> classic roses to exotic blooms, we offer a wide variety of fresh.
+                </p>
             </div>
-            <div class="deal-card">
-                <div class="deal-1">
-                    <div class="bloom">
-                        <h4>60% Off | Bloom Plant</h4>
-                        <p>Shop Now</p>
+            <div class="deal-container">
+                <div class="box-content">
+                    <div class="box" id="box-1">
+                        <div>
+                            <h3>60% Off | Bloom Plant</h3>
+                            <a class="color3" href="">Shop Now</a>
+                        </div>
                     </div>
-                    <div class="ana">
-                        <h4>30% Off | Ana Plant</h4>
-                        <p>Shop Now</p>
+                    <div class="box" id="box-2">
+                        <div>
+                            <h3>30% Off | Ana Plant</h3>
+                            <a class="color3" href="">Shop Now</a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="zabo">
-                    <h4>25% Off | Zabo Plant</h4>
-                    <p>Shop Now</p>
+                <div>
+                    <div class="box" id="box-3">
+                        <div class="box-content2">
+                            <h3>25% Off | Zabo Plant</h3>
+                            <a class="color3" style="font-size: 28px; font-weight: 600;" href="">Shop Now</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- join section -->
-        <section class="">
+        <section>
             <div class="join">
                 <h3 class="join-title">Join the colorful Bunch</h3>
-
-                <input type="email" name="" id="" placeholder="   Write email">
-                <button>Subscribe</button>
+                <div class="join-part">
+                    <input type="email" name="" id="" placeholder="   Write email">
+                    <button>Subscribe</button>
+                </div>
             </div>
         </section>
     </main>
